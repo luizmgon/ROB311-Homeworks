@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/src:$ROS_PACKAGE_PATH"
