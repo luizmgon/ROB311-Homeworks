@@ -52,6 +52,8 @@ _Don't forget to ```source ./devel/setup.bash``` after each new ROS terminal is 
 
 After launching the nodes, we can use ```rqt``` to see the following Node/Topic graph that shows perfectly the message flow desired for the activity.
 
+![image](https://github.com/user-attachments/assets/0e8266f0-d9aa-4e1d-a8c9-8b89af2b9fcc)
+
 
 ### Folder Structure:
 
