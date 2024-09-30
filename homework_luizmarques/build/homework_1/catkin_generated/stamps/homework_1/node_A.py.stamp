@@ -11,10 +11,10 @@ def node_A():
     rospy.init_node('node_A')
 
     # Publisher for outgoing message
-    pub = rospy.Publisher('outgoing_A', String, queue_size=10)
+    pub = rospy.Publisher('incoming_B', String, queue_size=10)
 
     # Subscriber for incoming message from D
-    rospy.Subscriber('outgoing_D', String, callback)
+    rospy.Subscriber('incoming_A', String, callback)
 
     rate = rospy.Rate(0.5)  # 1 message every 2 seconds
     while not rospy.is_shutdown():

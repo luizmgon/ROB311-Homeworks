@@ -12,7 +12,7 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in '/home/luiz/ENSTA/ROB311/ROB311-Homeworks/homework_luizmarques/devel;/home/luiz/ENSTA/ROB311/Homeworks/HW1/ros_workspace/devel;/opt/ros/noetic'.split(';'):
+    for workspace in '/opt/ros/noetic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)

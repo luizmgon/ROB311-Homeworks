@@ -13,10 +13,10 @@ def node_B():
 
     # Publisher for outgoing message
     global pub
-    pub = rospy.Publisher('outgoing_B', String, queue_size=10)
+    pub = rospy.Publisher('incoming_C', String, queue_size=10)
 
     # Subscriber for incoming message from A
-    rospy.Subscriber('outgoing_A', String, callback)
+    rospy.Subscriber('incoming_B', String, callback)
 
     rospy.spin()
 
